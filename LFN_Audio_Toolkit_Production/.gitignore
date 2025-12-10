@@ -1,0 +1,104 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environment
+venv/
+ENV/
+env/
+.venv
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Output files (keep structure, ignore contents)
+outputs/spectrograms/*
+!outputs/spectrograms/.gitkeep
+outputs/trends/*
+!outputs/trends/.gitkeep
+outputs/recordings/*
+!outputs/recordings/.gitkeep
+outputs/*.csv
+outputs/*.json
+outputs/*.xlsx
+outputs/*.wav
+outputs/*.png
+
+# Log files
+*.log
+alerts_log.json
+*.db
+
+# Health assessment reports
+health_assessment_*.json
+
+# Temporary files
+*.tmp
+*.bak
+*.swp
+temp_*/
+.cache/
+
+# Audio test files
+test_audio_batch/
+mic_test_output.wav
+*.wav
+
+# Analysis results
+lfn_analysis_results.*
+all_spectrogram_data.csv
+
+# OS specific
+Thumbs.db
+.DS_Store
+desktop.ini
+
+# Compiled files
+*.pyc
+*.pyo
+*.pyd
+
+# Distribution
+*.tar.gz
+*.zip
+
+# Coverage reports
+htmlcov/
+.coverage
+.coverage.*
+coverage.xml
+*.cover
+
+# pytest
+.pytest_cache/
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json

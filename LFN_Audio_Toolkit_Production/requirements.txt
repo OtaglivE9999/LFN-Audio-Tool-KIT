@@ -1,0 +1,16 @@
+# Core audio processing
+soundfile>=0.12.1
+sounddevice>=0.4.6
+numpy>=1.24.0
+scipy>=1.10.0
+
+# Data processing and export
+pandas>=2.0.0
+openpyxl>=3.1.0
+
+# Visualization
+matplotlib>=3.7.0
+
+# Optional: GPU acceleration (CUDA required)
+# Uncomment the line below if you have CUDA installed
+# cupy-cuda11x>=12.0.0  # Replace 11x with your CUDA version (e.g., cupy-cuda118 for CUDA 11.8)
