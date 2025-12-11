@@ -5,6 +5,31 @@ All notable changes to the LFN Audio Toolkit will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [2.1.0] - 2025-01-13
+
+### Added - VAD Research Integration
+- **Vibroacoustic Disease (VAD) research** from Dr. Mariana Alves-Pereira integrated into health assessment
+- Body resonance frequency bands based on peer-reviewed research:
+  - Cardiac (1-8 Hz)
+  - Vestibular (8-12 Hz)
+  - Respiratory (12-20 Hz)
+  - Abdominal (20-40 Hz)
+  - Neurological (40-100 Hz)
+- VAD clinical staging system (Stage I, II, III) based on exposure duration
+- Updated risk thresholds using Linear/C-weighted measurements (not A-weighted)
+- Warning about A-weighting underestimating ILFN exposure by 20-50 dB
+- Scientific references to Alves-Pereira & Castelo Branco publications (1999, 2004, 2007)
+
+### Changed
+- `lfn_health_assessment.py` completely rewritten with VAD-specific health impacts
+- Risk levels now aligned with occupational exposure research (Critical: 90dB, High: 75dB)
+- Medical recommendations updated with VAD-specific guidance
+- Health report now includes VAD stage assessment
+
+### Documentation
+- Added comprehensive VAD research documentation in health assessment module
+- Updated medical recommendations with specialist referral guidance
+
 ## [2.0.0] - 2025-12-10
 
 ### Added
